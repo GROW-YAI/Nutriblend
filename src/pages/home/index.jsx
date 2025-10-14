@@ -33,7 +33,7 @@ const Home = () => {
             id="subtext-two"
             className="text-4xl lg:text-5xl xl:text-6xl font-semibold text-pink-500 mb-5 font-baskerville italic"
           >
-            NUTRIBLEND BAS ENT
+            NUTRIBLEND BAS LTD
           </p>
         </header>
       </section>

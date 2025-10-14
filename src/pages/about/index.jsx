@@ -9,7 +9,7 @@ const About = () => {
           About Us
         </p>
         <p className="text-2xl italic text-pink-500 font-baskervville">
-          NUTRIBLEND BAS ENT
+          NUTRIBLEND BAS LTD
         </p>
       </div>
 
