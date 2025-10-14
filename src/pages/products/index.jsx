@@ -7,6 +7,8 @@ import img3 from '../../assets/images/img3.jpeg';
 import img4 from '../../assets/images/bg.jpg';
 import img5 from '../../assets/images/img5.jpg';
 import img6 from '../../assets/images/img6.jpg';
+import img7 from '../../assets/images/prod5.jpg';
+import img8 from '../../assets/images/prod6.jpg';
 
 const Products = () => {
   return (
@@ -21,64 +23,106 @@ const Products = () => {
             Non-dairy milk alternatives
           </h3>
         </div>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {/* Product 1 */}
-          <div className="text-center">
+          <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
             <img
               src={img1}
               alt="Products"
-              className="w-full h-[390px] object-cover rounded-lg shadow-md"
+              className="w-full h-[250px] object-cover rounded mb-4"
             />
-            <p className="text-lg text-gray-700 mt-4 font-bold">Products</p>
+            <p className="text-lg text-gray-700 font-bold">Products</p>
+            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+              Order Now
+            </button>
           </div>
           {/* Product 2 */}
-          <div className="text-center">
+          <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
             <img
               src={img2}
               alt="Powdered Milk"
-              className="w-full h-[390px] object-cover rounded-lg shadow-md"
+              className="w-full h-[250px] object-cover rounded mb-4"
             />
-            <p className="text-lg text-gray-700 mt-4 font-bold">
+            <p className="text-lg text-gray-700 font-bold">
               Powdered Milk
             </p>
+            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+              Order Now
+            </button>
           </div>
           {/* Product 3 */}
-          <div className="text-center">
+          <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
             <img
               src={img3}
               alt="Liquid Milk"
-              className="w-full h-[390px] object-cover rounded-lg shadow-md"
+              className="w-full h-[250px] object-cover rounded mb-4"
             />
-            <p className="text-lg text-gray-700 mt-4 font-bold">Liquid Milk</p>
+            <p className="text-lg text-gray-700 font-bold">Liquid Milk</p>
+            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+              Order Now
+            </button>
           </div>
           {/* Product 4 */}
-          <div className="text-center">
+          <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
             <img
               src={img4}
               alt="Tiger Nuts"
-              className="w-full h-[390px] object-cover rounded-lg shadow-md"
+              className="w-full h-[250px] object-cover rounded mb-4"
             />
-            <p className="text-lg text-gray-700 mt-4 font-bold">Tiger Nuts</p>
+            <p className="text-lg text-gray-700 font-bold">Tiger Nuts</p>
+            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+              Order Now
+            </button>
           </div>
           {/* Product 5 */}
-          <div className="text-center">
+          <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
             <img
               src={img5}
               alt="Powdered Tiger Nut"
-              className="w-full h-[390px] object-cover rounded-lg shadow-md"
+              className="w-full h-[250px] object-cover rounded mb-4"
             />
-            <p className="text-lg text-gray-700 mt-4 font-bold">
+            <p className="text-lg text-gray-700 font-bold">
               Powdered Tiger Nut
             </p>
+            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+              Order Now
+            </button>
           </div>
           {/* Product 6 */}
-          <div className="text-center">
+          <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
             <img
               src={img6}
               alt="Cashew Nut"
-              className="w-full h-[390px] object-cover rounded-lg shadow-md"
+              className="w-full h-[250px] object-cover rounded mb-4"
             />
-            <p className="text-lg text-gray-700 mt-4 font-bold">Cashew Nut</p>
+            <p className="text-lg text-gray-700 font-bold">Cashew Nut</p>
+            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+              Order Now
+            </button>
+          </div>
+          {/* Product 7 */}
+          <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
+            <img
+              src={img7}
+              alt="Almond Milk"
+              className="w-full h-[250px] object-cover rounded mb-4"
+            />
+            <p className="text-lg text-gray-700 font-bold">Tiger Nut/Cashew Powder</p>
+            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+              Order Now
+            </button>
+          </div>
+          {/* Product 8 */}
+          <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
+            <img
+              src={img8}
+              alt="Coconut Milk"
+              className="w-full h-[250px] object-cover rounded mb-4"
+            />
+            <p className="text-lg text-gray-700 font-bold">Nutri Delight</p>
+            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+              Order Now
+            </button>
           </div>
         </div>
       </section>

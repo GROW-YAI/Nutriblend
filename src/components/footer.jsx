@@ -48,7 +48,7 @@ const Footer = () => {
                 href="#"
                 className="text-pink-400 text-sm font-semibold hover:underline"
               >
-                Nutriblend BAS ENT
+                NUTRIBLEND BAS LTD
               </a>
               <span className="block text-gray-500 text-xs mt-1">
                 15 Dec 2024
@@ -65,7 +65,7 @@ const Footer = () => {
                 href="#"
                 className="text-pink-400 text-sm font-semibold hover:underline"
               >
-                Nutriblend BAS ENT
+                NUTRIBLEND BAS LTD
               </a>
               <span className="block text-gray-500 text-xs mt-1">
                 15 Dec 2024
@@ -112,7 +112,7 @@ const Footer = () => {
       {/* After Footer Section */}
       <div className="after-footer bg-gray-800 py-6 mt-12 text-center text-gray-500">
         <div className="footer-content flex justify-between items-center container mx-auto">
-          <div className="text-sm text-gray-400">© 2024 Nutriblend BAS ENT</div>
+          <div className="text-sm text-gray-400">© 2024 NUTRIBLEND BAS LTD</div>
         </div>
       </div>
     </footer>
