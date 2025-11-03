@@ -88,7 +88,7 @@ const NavBar = ({ activeSection }) => {
           Contact
         </Link>
         <Link
-          to="contact"
+          to="products"
           smooth={true}
           offset={-70}
           duration={300}

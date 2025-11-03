@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import OurTeam from './team';
 import ReviewsSection from './review';
 import img1 from '../../assets/images/img1.jpg';
@@ -32,9 +33,9 @@ const Products = () => {
               className="w-full h-[250px] object-cover rounded mb-4"
             />
             <p className="text-lg text-gray-700 font-bold">Products</p>
-            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+            <Link to="/#contact" className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
               Order Now
-            </button>
+            </Link>
           </div>
           {/* Product 2 */}
           <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
@@ -46,9 +47,9 @@ const Products = () => {
             <p className="text-lg text-gray-700 font-bold">
               Powdered Milk
             </p>
-            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+            <Link to="/#contact" className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
               Order Now
-            </button>
+            </Link>
           </div>
           {/* Product 3 */}
           <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
@@ -58,9 +59,9 @@ const Products = () => {
               className="w-full h-[250px] object-cover rounded mb-4"
             />
             <p className="text-lg text-gray-700 font-bold">Liquid Milk</p>
-            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+            <Link to="/#contact" className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
               Order Now
-            </button>
+            </Link>
           </div>
           {/* Product 4 */}
           <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
@@ -70,9 +71,9 @@ const Products = () => {
               className="w-full h-[250px] object-cover rounded mb-4"
             />
             <p className="text-lg text-gray-700 font-bold">Tiger Nuts</p>
-            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+            <Link to="/#contact" className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
               Order Now
-            </button>
+            </Link>
           </div>
           {/* Product 5 */}
           <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
@@ -84,9 +85,9 @@ const Products = () => {
             <p className="text-lg text-gray-700 font-bold">
               Powdered Tiger Nut
             </p>
-            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+            <Link to="/#contact" className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
               Order Now
-            </button>
+            </Link>
           </div>
           {/* Product 6 */}
           <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
@@ -96,9 +97,9 @@ const Products = () => {
               className="w-full h-[250px] object-cover rounded mb-4"
             />
             <p className="text-lg text-gray-700 font-bold">Cashew Nut</p>
-            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+            <Link to="/#contact" className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
               Order Now
-            </button>
+            </Link>
           </div>
           {/* Product 7 */}
           <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
@@ -108,9 +109,9 @@ const Products = () => {
               className="w-full h-[250px] object-cover rounded mb-4"
             />
             <p className="text-lg text-gray-700 font-bold">Tiger Nut/Cashew Powder</p>
-            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+            <Link to="/#contact" className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
               Order Now
-            </button>
+            </Link>
           </div>
           {/* Product 8 */}
           <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center transition-transform hover:scale-105">
@@ -120,9 +121,9 @@ const Products = () => {
               className="w-full h-[250px] object-cover rounded mb-4"
             />
             <p className="text-lg text-gray-700 font-bold">Nutri Delight</p>
-            <button className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
+            <Link to="/#contact" className="mt-3 bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition">
               Order Now
-            </button>
+            </Link>
           </div>
         </div>
       </section>
