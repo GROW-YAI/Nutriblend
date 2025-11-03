@@ -8,7 +8,7 @@ import {
 
 const Contact = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div id="contact" className="container mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row gap-6">
         {/* Contact Details Section */}
         <div className="flex-1 bg-white shadow-md rounded-lg p-6">
